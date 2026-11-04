@@ -124,19 +124,18 @@
       <span class="badge">Official Privacy Policy • Play Store & Web</span>
       <h1>Privacy Policy</h1>
       <div class="meta">
-        Last Updated: November 4, 2026 &bull; Legal Name (GST REG-06): <strong>Mohd Imran</strong> &bull; Trade Name: <strong>S.N ENTERPRISES</strong> &bull; Constitution: <strong>Proprietorship</strong> &bull; GSTIN: <strong>09AEDPI0565F1ZQ</strong> &bull; PAN: <strong>AEDPI0565F</strong> &bull; App Package ID: <code>com.snoviqlabs.ecomgst</code>
+        Last Updated: November 5, 2026 &bull; Legal Name (GST REG-06): <strong>Mohd Imran</strong> &bull; Trade Name: <strong>S.N ENTERPRISES</strong> &bull; Constitution: <strong>Proprietorship</strong> &bull; GSTIN: <strong>09AEDPI0565F1ZQ</strong> &bull; PAN: <strong>AEDPI0565F</strong> &bull; App Package ID: <code>com.snoviqlabs.ecomgst</code>
       </div>
       
 <p>
   <strong>EcomGST Mitra: GST &amp; POS Bill</strong> (<code>com.snoviqlabs.ecomgst</code>) is developed and maintained under the software brand <strong>Snoviq Labs</strong> by <strong>Mohd Imran</strong>, a GST-registered <strong>Proprietorship</strong> (GSTIN: <strong>09AEDPI0565F1ZQ</strong>, PAN: AEDPI0565F) carrying on business under the trade name <strong>S.N ENTERPRISES</strong>, having its registered address at Building No. 82, Punjabi Gali, C.O.D. Chandari, Sujat Ganj, Kanpur, Uttar Pradesh &ndash; 208013, India (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;). Complete statutory particulars are published in our <a href="./terms.html">Terms &amp; Conditions</a>. Your financial and business privacy is our foundational principle.
 </p>
 
-<h2>1. 100% On-Device Local Data Storage (Zero Cloud Snooping)</h2>
+<h2>1. On-Device by Default; Optional User-Initiated Cloud Backup</h2>
 <ul>
   <li>All business profiles, GSTINs, POS tax invoices, customer ledgers (Bahi-Khata), inventory records, expense entries, passbook records, and imported e-commerce spreadsheets (Amazon, Flipkart, Meesho, Myntra, Etsy, Shopify) are processed and stored <strong>exclusively locally on your own device</strong> (via local browser IndexedDB / Android local app storage).</li>
   <li>We do <strong>not</strong> collect, upload, store, rent, or sell any of your invoices, GST returns, customer phone numbers, or accounting records on any external server operated by S.N ENTERPRISES or Snoviq Labs.</li>
-</ul>
-
+<p><strong>Optional Cloud Backup (Google Firebase):</strong> Cloud backup is <strong>disabled by default</strong> and is never enabled without an explicit action by you. If — and only if — you choose to create a free account and turn on cloud backup, an encrypted-in-transit copy of your workspace backup file (the same JSON structure you can export locally) is stored in <strong>your own per-user area</strong> of Google Firebase (Cloud Firestore, region <code>asia-south1 (Mumbai)</code>) under Google’s privacy commitments. Firebase security rules restrict read/write access to <strong>your signed-in account only</strong>; S.N ENTERPRISES / Snoviq Labs personnel cannot read your backups, and we never sell or share them. Your account email and the backup timestamp/size are the only account metadata stored. You may delete the account and all cloud backups at any time (see the Data Deletion page).</p>
 <h2>2. Optional Network Requests &amp; Payments</h2>
 <ul>
   <li><strong>Public Foreign Exchange Reference Rates:</strong> When your device is online, the app may query public exchange-rate endpoints (USD, EUR, GBP, AED, AUD, CAD to INR) strictly to populate export LUT conversion rates without transmitting any personal or business data. When offline, verified fallback rates work automatically.</li>
@@ -155,6 +154,7 @@
 <p>
   Because 100% of your accounting data resides locally on your device, you retain complete ownership and control at all times. You may export encrypted/JSON backups to your own storage or permanently erase all application data immediately via <strong>Settings &rarr; Factory Reset / Wipe Data</strong> or by uninstalling the app.
 </p>
+<p><strong>Cloud backup retention:</strong> If you enabled optional cloud backup, your backup document is retained until you replace it with a newer backup, or until you delete your account (in-app: <em>Settings &rarr; Backup &amp; Data &rarr; Cloud Backup &amp; Sync &rarr; Delete account</em>), whichever is earlier. Account deletion removes all cloud backups immediately and irreversibly. Local on-device data is always under your sole control and is unaffected by cloud deletion.</p>
 
 <h2>5. Children's Privacy</h2>
 <p>
